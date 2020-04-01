@@ -1,0 +1,84 @@
+/**
+ ** Helpers
+ **/
+
+.ui.short.divider {
+	width:6rem !important;
+}
+
+
+/**
+ ** Checkout / Cart Styling
+ **/
+
+.cart.column {
+	.content {
+		width:60%;
+		margin: 0 auto;
+		
+		@media(max-width:768px) {
+			width:95%;
+		}
+
+		.logo {
+			margin-top:3rem;
+			margin-bottom:5rem;
+		}
+
+		.product {
+			.details {
+				label {
+					color:#c0c0c0 !important;
+					font-size:.95em;
+					margin-right: 0.4em;
+				}
+			}
+		}
+	}
+}
+
+
+.checkout.column {
+	
+	color:white;
+	background-color:#323641;
+	height:100%;
+	padding-top:3rem !important; // !important to override Semantic UI
+	padding-bottom:3rem !important; // !important to override Semantic UI
+
+	label {
+		color:white !important; // !important to override Semantic UI
+	}
+
+	.field {
+		@media(max-width:768px) {
+			margin-bottom:1rem !important;
+		}
+	}
+	
+	.features.column {
+		display:block;
+		padding-left: 3rem !important; // !important to override Semantic UI
+
+		@media(max-width:768px) {
+			padding-left:unset !important;
+		}
+
+		.feature {
+			margin-bottom:3rem;
+			display:flex;
+			flex-direction: row;
+			align-items: center;
+
+			img {
+				display:inline-flex;
+			}
+
+			label {
+				margin-left:1em;
+				font-size:.8em;
+				display:inline-flex;
+			}
+		}
+	}
+}

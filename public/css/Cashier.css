@@ -1,0 +1,319 @@
+/**
+ ** Helpers
+ **/
+
+.ui.short.divider {
+  width: 6rem !important;
+}
+
+/**
+ ** Checkout / Cart Styling
+ **/
+
+.cart.column .content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .cart.column .content {
+    width: 95%;
+  }
+}
+
+.cart.column .content .logo {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.cart.column .content .product .details label {
+  color: #c0c0c0 !important;
+  font-size: .95em;
+  margin-right: 0.4em;
+}
+
+.checkout.column {
+  color: white;
+  background-color: #323641;
+  height: 100%;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.checkout.column label {
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .checkout.column .field {
+    margin-bottom: 1rem !important;
+  }
+}
+
+.checkout.column .features.column {
+  display: block;
+  padding-left: 3rem !important;
+}
+
+@media (max-width: 768px) {
+  .checkout.column .features.column {
+    padding-left: unset !important;
+  }
+}
+
+.checkout.column .features.column .feature {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkout.column .features.column .feature img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.checkout.column .features.column .feature label {
+  margin-left: 1em;
+  font-size: .8em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body{
+  background: #adc7c3;
+}
+    .custompage{
+        padding-top: 200px;
+    padding-bottom: 200px;
+    }
+.custombutton-block button{
+    border-radius: 30px !important;
+    height: 50px;
+    width: 50px;
+}
+/* .custombutton-block .mrg-top250{margin-top: 250px;} */
+.custombutton-block .ui.buttons button:first-child{
+    background-color: #779590;
+    color: #fff;
+}
+.custombutton-block .ui.buttons button:active, .custombutton-block .ui.buttons button:focus, .custombutton-block .ui.buttons button:active, .custombutton-block .ui.buttons button:hover{
+    background-color: #779590;
+    color: #fff;
+}
+.custombutton-block hr{
+    width: 35px;
+    top: 25px;
+    position: relative;
+    background-color: #779590;
+    height: 2px;
+    border: none;
+}
+
+.custom-html .custompara{
+    padding: 100px 210px 80px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+ .imagebox img{
+width: 100%;
+max-height: 328px;
+
+ }
+ .imagebox .segment{
+     background: transparent;
+     border: none;
+     box-shadow: none;
+     text-align: center;
+ }
+ .removebtn{
+     color: #7e9894;
+     font-size: 22px;
+     font-weight: bold;
+     text-transform: uppercase;
+     padding-top: 15px;
+    display: block;
+ }
+ .grid.pad100{
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+ .textBox a{
+     font-size: 26px;
+ }
+ .textBox .image{
+     position: relative;
+ }
+ .textBox a{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 25px 30px;
+    color: #779590;
+    line-height: normal;
+ }
+.custom-html .submit-button, .custom-html .submit-button:hover, .custom-html .submit-button:focus , .custom-html .submit-button:active{
+    background-color: #00e59e;
+    color: white; 
+    margin:0 auto;
+}
+.submit-button-block{
+    display: block;
+    text-align: center;
+    margin: 80px auto 0;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    .custompage {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+    .custombutton-block .mrg-top250{margin-top: 30px;}
+    .grid.pad100 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-html .custompara2 {
+    padding: 4px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.custom-html .custompara {
+    padding: 4px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.removebtn {
+    font-size: 15px;
+    padding-top: 7px;
+  
+}
+.textBox a {
+    top: 20%;
+    font-size: 12px;
+}
+.custom-html .column{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.custom-html .submit-button{
+    width: 275px;
+}
+.submit-button-block{
+    margin: 40px auto 100px;
+}
+.custom-html .back-button{
+    padding: 13px 80px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.custom-html .email-button{
+    padding: 13px 62px;
+    font-size: 12px;
+    margin: 10px auto;
+}
+.back-button-block{
+    margin: 40px auto 100px;
+}
+.customCopyBlock{
+    margin: 50px auto;
+}
+
+}
+
+/*page 2*/
+.custom-html .custompara2{
+    padding: 100px 264px 80px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.customCopyBlock input[type=number]::-webkit-inner-spin-button, 
+.customCopyBlock input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.customCopyBlock{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+ }
+ .customCopyBlock input.customTextbox{
+    width: 100px !important;
+    font-size: 25px;
+    padding: 10px !important;
+    text-align: center;
+    color: #000;
+
+ }
+ .custombutton-block .ui.buttons button:last-child{
+    background-color: #779590;
+    color: #fff;
+}
+.customCopyBlock .button ,  .customCopyBlock .button:hover, .customCopyBlock .button:focus, .customCopyBlock .button:active{
+    background-color: #00e59e;
+    color: white; 
+    text-transform: uppercase;
+ }
+
+ .custom-html .back-button, .custom-html .back-button:hover, .custom-html .back-button:focus , .custom-html .back-button:active{
+    background-color: #f1641e;
+    color: white; 
+    display: block;
+    text-transform: uppercase;
+    padding: 13px 102px;
+    border-radius: 5px;
+}
+
+.custom-html .email-button, .custom-html .email-button:hover, .custom-html .email-button:focus , .custom-html .email-button:active{
+    background-color: #98b6b1;
+    color: #86a39e; 
+    display: block;
+    padding: 13px 80px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.back-button-block{
+    display: block;
+    text-align: center;
+    margin: 80px auto 0;
+}
+
+img.ui.medium.image.image-cart-map{
+  width: auto;
+}
+.ui.action.input.email-code-div
+{
+  margin-top: 15px;
+  width:300px;
+}
+button#send-code-email{
+  background-color: #789691;
+    color: #fff;
+    text-transform: uppercase;
+}

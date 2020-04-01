@@ -1,0 +1,43 @@
+/**
+ ** Homepage Sections
+ **/
+
+.section .ui.grid {
+  margin-top: 2rem;
+}
+
+.second.section .ui.image,
+.fifth.section .ui.image {
+  width: 100%;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.third.section,
+.fourth.section {
+  font-size: .9em;
+}
+
+.third.section .ui.inverted.segment,
+.fourth.section .ui.inverted.segment {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+
+.third.section .ui.inverted.segment .ui.list,
+.fourth.section .ui.inverted.segment .ui.list {
+  margin-left: 2.3rem;
+}
+
+.third.section .ui.inverted.segment .ui.list .item,
+.fourth.section .ui.inverted.segment .ui.list .item {
+  margin-bottom: 1em;
+}
+
+.third.section .image.column .ui.image,
+.fourth.section .image.column .ui.image {
+  width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,113 @@
+@import 'canvas';
+
+.pusher {
+	@media(max-width:768px) {
+		background-color:rgb(233,233,233) !important;
+	}
+}
+
+/**
+ ** Celestial Map Editor
+ **/
+
+.editor {
+
+	margin: unset !important;
+	background-color:rgb(233,233,233) !important;
+	position:relative;
+}
+
+.tools, #editor-tools {
+
+	background-color: white;
+
+	@media(max-width:768px) {
+		position:fixed;
+		bottom:0;
+		left:0;
+		width:100%;
+		z-index:9999;
+		width:100vw;
+	}
+
+	.close {
+		width:100%;
+
+		&:not(.active) {
+			display: none !important;
+		}
+
+		@media(min-width:769px) {
+			display: none !important;
+		}
+
+		img {
+			margin: 0 auto;
+			width:32px;
+			height:auto;
+		}
+	}
+
+	.headers {
+		width:100% !important;
+
+		a.item {
+			flex: 1 !important;
+		}
+	}
+
+	.box {
+		padding:1.5rem;
+
+		@media(max-width:768px) {
+			&:not(.active) {
+				display:none;
+			}
+
+			max-height:50vh;
+			overflow-x:auto;
+		}
+
+		.field {
+			margin-bottom:1rem;
+		}
+
+		label {
+			line-height:2em;
+		}
+	}
+}
+
+/**
+ ** Handle Tabs
+ **/
+.tab:not(.active) {
+	display: none;
+}
+
+/**
+ ** Handle Colors
+ **/
+
+.colors {
+
+	.color {
+		position:relative;
+
+		.example {
+
+			width:64px;
+			height:64px;
+			display:block;
+		}
+
+		.example:hover {
+			cursor:pointer;
+		}
+
+		label {
+			font-size:.8em;
+			white-space: nowrap;
+		}
+	}
+}

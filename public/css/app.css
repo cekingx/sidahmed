@@ -1,0 +1,252 @@
+/**
+ ** Variables
+ **/
+
+/**
+ ** Global Modifiers
+ **/
+
+.ui.primary.header {
+  color: #ff6969 !important;
+}
+
+h1,
+h1.ui.header {
+  font-size: 2.1em;
+  font-weight: 700;
+}
+
+/**
+ ** Helpers
+ **/
+
+.upper,
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.screen-height {
+  min-height: 100vh;
+}
+
+.white-background {
+  background-color: white !important;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.justify-content {
+  text-align: justify !important;
+}
+
+.pointer:hover {
+  cursor: pointer !important;
+}
+
+/**
+ ** Navigation
+ **/
+
+.hidden.menu {
+  display: none;
+}
+
+.secondary.pointing.menu {
+  border: unset !important;
+  border-bottom: unset !important;
+  border-width: 0px !important;
+}
+
+.secondary.pointing.menu .right.item {
+  padding: unset !important;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+.small.masthead .primary.button {
+  display: none !important;
+}
+
+.following.menu .primary.button {
+  margin-left: 1rem !important;
+}
+
+.following.menu .active.item {
+  background-color: unset !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+}
+
+/**
+ ** Masthead
+ **/
+
+.masthead .text {
+  padding-top: 20%;
+}
+
+.small.masthead.segment {
+  min-height: 7vh;
+  height: 7vh;
+  max-height: 7vh;
+  background-color: #ff6969;
+  padding: unset !important;
+}
+
+.masthead.segment {
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 1em 0em;
+}
+
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+
+.masthead p {
+  font-size: 1.07em;
+}
+
+@media only screen and (max-width: 700px) {
+  .masthead.segment {
+    min-height: 350px;
+  }
+
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+}
+
+/**
+ ** Page Section Structure
+ **/
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+  background-color: white;
+}
+
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+/**
+ ** Footer
+ **/
+
+.footer.segment {
+  padding: 5em 0em;
+  background-color: #333333;
+}
+
+/**
+ ** Loading Spinner
+ **/
+
+.background {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100000000000;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% {
+    -webkit-transform: perspective(120px);
+  }
+
+  50% {
+    -webkit-transform: perspective(120px) rotateY(180deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+  }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+

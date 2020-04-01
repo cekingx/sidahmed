@@ -1,0 +1,86 @@
+.editor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.editor .content .bg {
+  position: absolute;
+  top: 0;
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.editor .content .poster {
+  position: absolute;
+  top: 0;
+  z-index: 10001;
+}
+
+.editor .save {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 10002;
+}
+
+/**
+ ** Helpers
+ **/
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+/** 
+ ** Template Structure
+ **/
+
+body {
+  background-color: white;
+  overflow: auto !important;
+}
+
+.navigation.container {
+  display: inline-block;
+}
+
+.content.segment {
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+/**
+ ** Dashboard
+ **/
+
+.infocard {
+  color: white;
+}
+
+.infocard .count {
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.infocard .label {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/**
+ ** Orders
+ **/
+
+.order .preview {
+  width: 5rem;
+  height: auto;
+}
+

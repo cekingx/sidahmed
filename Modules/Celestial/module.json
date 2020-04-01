@@ -1,0 +1,14 @@
+{
+    "name": "Celestial",
+    "alias": "celestial",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Celestial\\Providers\\CelestialServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

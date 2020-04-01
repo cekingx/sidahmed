@@ -1,0 +1,56 @@
+@import 'background_images';
+
+/**
+ ** Helpers
+ **/
+
+.mt-5 {
+	margin-top:3rem;
+}
+
+/** 
+ ** Template Structure
+ **/
+
+body {
+	background-color:white;
+	overflow: auto !important;
+}
+
+.navigation.container {
+	display: inline-block;
+}
+
+.content.segment {
+	padding-top:3rem;
+	padding-left:2rem;
+}
+
+/**
+ ** Dashboard
+ **/
+
+.infocard {
+	color:white;
+
+	.count {
+		font-weight:800;
+		font-size:3em;
+	}
+
+	.label {
+		font-weight:600;
+		font-size:1.5em;
+	}
+}
+
+/**
+ ** Orders
+ **/
+
+.order {
+	.preview {
+		width:5rem;
+		height:auto;
+	}
+}
